@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', serif;
+}
+
+//body{
+
+//}
+
+.nar_navbar{
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nar_navbar div, .nar_navbar ul{
+    background-color: transparent !important;
+}
+
+.nar_cont_sec_1{
+    padding: 10%;
+}
+
+.nar_cont_sec_1_link{
+    padding: 5%;
+}
+
+.nar_cont_sec_1_link a{
+    width: 200px;
+}
+
+.nar_cont_sec_1 hr{
+    border-top: 1px solid rgba(1, 1, 1, 0.3);
+}
+
+.nar_cont_banner_sec_3{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/futbol.png");
+    position: relative;
+    padding: 10%;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.nar_cont_banner_sec_3 .row{
+    color: #fff;
+    padding: 2%;
+}
+
+.nar_cont_img{
+    padding: 5%;
+}
+
+.nar_cont_footer{
+    background-color: rgba(1, 1, 1, 0.7);
+    padding: 10%;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.material-symbols-outlined {
+font-variation-settings:
+'FILL' 0,
+'wght' 400,
+'GRAD' 0,
+'opsz' 48
+}
+
+.container-menu img{
+
+    height: 30vh;
+    width: 43vh;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 5%;
+}
+
+.container-sombra{
+    background-color: #014d4d;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.horas{
+    display: flex;
+    justify-content: center;
+}
+
+#boton-horas{
+    font-size: 1.5rem;
+}
+
+.fc-event{
+    cursor:pointer;
+}
+
+#cabecera-img{
+    display: flex;
+    width: auto;
+    height: 5rem;
+    cursor: pointer;
+}
+
+#entrante:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+
+#plato:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+
+#postre:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+
+.reservas{
+    text-align: center;
+}
+
+/*#log{
+  margin-left: 60rem;
+  margin-right: 2rem;
+}
+*/
+
+
+#disponible{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.correcto{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color:dodgerblue;
+}
+
+.alert-success{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+#alerta{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.contacto{
+    text-align: center;
+}
+
+.misre{
+    text-align: center;
+}
+
+.styled-table {
+    width: calc(100% - 20px); /* Resta 20px para los márgenes */
+    margin: 20px; /* Márgenes alrededor de la tabla */
+    border-collapse: collapse;
+}
+
+.styled-table th, .styled-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.styled-table th {
+    background-color: #c8ecf4;
+}
+
+.styled-table tr:nth-child(even) {
+    background-color: #eff7f6; /* Color de fondo para filas pares */
+}
+
+.styled-table tr:nth-child(odd) {
+    background-color: #cff3ef; /* Color de fondo para filas impares */
+}
+
+.formulario {
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centra el formulario en la pantalla */
+    padding: 20px; /* Añade relleno alrededor del formulario */
+    box-sizing: border-box; /* Incluye el relleno en el ancho total */
+}
+
+.filtro {
+
+    display: flex;
+    flex-direction: wrap;
+
+}
+
+/* Estilos generales para el formulario */
+form.filtro {
+    max-width: 30%;
+    margin: 0 auto;
+}
+
+
+label {
+    margin-bottom: 5px;
+}
+
+/* Estilos para hacerlo responsive */
+@media screen and (max-width: 768px) {
+    form.filtro {
+        max-width: 100%; /* Cambia a ancho completo en pantallas pequeñas */
+    }
+
+}
+
+
+
+
+
+
+/*#contacto{
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+*/

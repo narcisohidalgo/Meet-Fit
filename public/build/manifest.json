@@ -1,0 +1,20 @@
+{
+  "resources/img/futbol.png": {
+    "file": "assets/futbol-49e14000.png",
+    "src": "resources/img/futbol.png"
+  },
+  "resources/img/polideportivo3.png": {
+    "file": "assets/polideportivo3-4ef54a35.png",
+    "src": "resources/img/polideportivo3.png"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-4c85f5d2.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app-bc9dab44.css",
+    "isEntry": true,
+    "src": "resources/sass/app.scss"
+  }
+}

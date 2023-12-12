@@ -1,0 +1,15 @@
+.restaurante{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.reserva{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+.sinpadding [class*="col-"] {
+    padding: 0;
+}
